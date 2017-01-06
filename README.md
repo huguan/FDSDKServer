@@ -1,8 +1,5 @@
-# FDSDKServer
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/seven/FDSDKServer/master/LICENSE)&nbsp;
-
-互冠聚合SDK服务端文档
-
+# FDSDKServer 互冠聚合SDK服务端文档
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/huguan/FDSDKServer/master/LICENSE)&nbsp;
 
 ##简介
 
@@ -16,7 +13,7 @@
 * 聚合sdk提供的是对各个渠道sdk接口的整合封装与转发，若有渠道方禁止接入第三方接口，CP方应详询渠道方及承担相应责任。
 
 ##用户验证
-###接口地址
+####接口地址
 <table>
     <thead>
         <tr>
@@ -32,7 +29,7 @@
     </tbody>
 </table>
 
-###请求参数
+####请求参数
 <table>
     <thead>
         <tr>
@@ -70,10 +67,10 @@
     </tbody>
 </table>
 
-###签名方式
-MD5(appID + token+appKey)
+####签名方式
+MD5(appID + token + appKey)
 
-###返回值示例
+####返回值示例
 ```
 //JSON:
 {    
@@ -86,7 +83,7 @@ MD5(appID + token+appKey)
 ```
 
 ##发货通知接口
-###接口地址
+####接口地址
 <table>
     <thead>
         <tr>
@@ -97,13 +94,13 @@ MD5(appID + token+appKey)
     <tbody>
         <tr>
             <td>正式地址</td>
-            <td>CP在开发者后台配置的通知地址，必须以http:// 开头,可以使用域名（或IP地址）+端口形式</td>
+            <td>CP在开发者后台配置的通知地址，必须以http:// 开头,可以使用域名（或IP地址）+ 端口形式</td>
         </tr>
     </tbody>
 </table>
 
 
-###请求参数
+####请求参数
 <table>
     <thead>
         <tr>
@@ -172,7 +169,7 @@ MD5(appID + token+appKey)
             <td>money</td>
             <td>string</td>
             <td>是</td>
-            <td>金额***(单位：分)***</td>
+            <td>金额(单位：分)</td>
         </tr>
         <tr>
             <td>extension</td>
@@ -189,16 +186,16 @@ MD5(appID + token+appKey)
     </tbody>
 </table>
 
-###签名方式
+####签名方式
 MD5(productID + roleId + orderNum + endTime + appKey)
 
-###返回值示例
+####返回值示例
 ```
 请求成功返回字符串: SUCCESS
 请求错误返回字符串: FAIL
 ```
 
-###说明
+####说明
 各个渠道对充值回调有不同的处理，只有CP返回SUCCESS时，渠道方才认为充值回调成功。若未收到CP的成功回复，渠道方可能会尝试继续发送回调请求，CP方要自行判断重复请求。
 
 
