@@ -107,7 +107,7 @@ MD5(appID + token + appKey)
             <th>参数名</th>
             <th>参数规格</th>
             <th>必填</th>
-            <th>说明</th>>
+            <th>说明</th>
         </tr>
     </thead>
     <tbody>
