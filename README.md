@@ -36,7 +36,7 @@
             <th>参数名</th>
             <th>参数规格</th>
             <th>必填</th>
-            <th>说明</th>>
+            <th>说明</th>
         </tr>
     </thead>
     <tbody>
@@ -70,6 +70,75 @@
 ####签名方式
 MD5(appID + token + appKey)
 
+
+####返回值
+<table>
+    <thead>
+        <tr>
+            <th>参数名</th>
+            <th>参数规格</th>
+            <th>必填</th>
+            <th>说明</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>errorCode</td>
+            <td>Int</td>
+            <td>是</td>
+            <td>错误码（参考附录表）</td>
+        </tr>
+        <tr>
+            <td>data</td>
+            <td>json</td>
+            <td>是</td>
+            <td>验证信息</td>
+        </tr>
+        <tr>
+            <td rowspan="4">
+            </td>
+            <td colspan="1">
+                参数名
+            </td>
+            <td colspan="1">
+                类型
+            </td>
+            <td colspan="1">
+                说明
+            </td>
+        </tr>
+        <tr>
+            <td>
+               id
+            </td>
+            <td>
+                Stirng
+            </td>
+            <td>
+                用户id
+            </td>
+        </tr>
+        <tr>
+            <td>
+               sdkUid
+            </td>
+            <td>
+                String
+            </td>
+            <td>
+                用户唯一id（即  sdkUid）
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+               验证不正确时，data没数据，只有errorCode
+            </td>
+        </tr>
+        
+        
+    </tbody>
+</table>
+
 ####返回值示例
 ```
 //JSON:
@@ -77,7 +146,8 @@ MD5(appID + token + appKey)
     "errorCode": 0,
     "data":
     {
-        "msg": "错误描述"
+        "id": "1"
+        "sdkUid": "1"
     }
 }
 ```
