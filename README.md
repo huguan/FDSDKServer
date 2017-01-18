@@ -120,13 +120,13 @@ MD5(appID + token + appKey)
         </tr>
         <tr>
             <td>
-               sdkUid
+               account
             </td>
             <td>
                 String
             </td>
             <td>
-                用户唯一id（即  sdkUid）
+                用户唯一id（即  account）
             </td>
         </tr>
         <tr>
@@ -147,7 +147,7 @@ MD5(appID + token + appKey)
     "data":
     {
         "id": "1"
-        "sdkUid": "1"
+        "account": "1"
     }
 }
 ```
