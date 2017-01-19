@@ -1,4 +1,4 @@
-# FDSDKServer 互冠聚合SDK服务端文档
+# 互冠聚合FDSDK服务端文档
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/huguan/FDSDKServer/master/LICENSE)&nbsp;
 
 ##简介
