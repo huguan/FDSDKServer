@@ -47,10 +47,10 @@
             <td>应用ID</td>
         </tr>
         <tr>
-            <td>userID</td>
+            <td>userId</td>
             <td>String</td>
             <td>是</td>
-            <td>客户端SDK返回的userID</td>
+            <td>客户端SDK返回的userId</td>
         </tr>
         <tr>
             <td>token</td>
