@@ -112,8 +112,6 @@ sign = MD5(appID + token + appKey)
             </td>
         </tr>
         <tr>
-	    <td>
-            </td>
             <td>
                userID
             </td>
@@ -125,8 +123,6 @@ sign = MD5(appID + token + appKey)
             </td>
         </tr>
         <tr>
-	    <td>
-            </td>
             <td>
                token
             </td>
@@ -138,8 +134,6 @@ sign = MD5(appID + token + appKey)
             </td>
         </tr>
 	<tr>
-	    <td>
-            </td>
             <td>
                sdkUserID
             </td>
