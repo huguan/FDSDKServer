@@ -50,7 +50,13 @@
             <td>userId</td>
             <td>String</td>
             <td>是</td>
-            <td>客户端SDK返回的userId</td>
+	    <td>
+	    	客户端SDK返回的userId</br>
+	    	(
+		IOS：使用参数名为 userID 的值</br>
+		Android：使用参数名为 sdkUserID 的值
+		)
+	    </td>
         </tr>
         <tr>
             <td>token</td>
@@ -106,6 +112,8 @@ sign = MD5(appID + token + appKey)
             </td>
         </tr>
         <tr>
+	    <td rowspan="4">
+            </td>
             <td>
                userID
             </td>
@@ -117,6 +125,8 @@ sign = MD5(appID + token + appKey)
             </td>
         </tr>
         <tr>
+	    <td rowspan="4">
+            </td>
             <td>
                token
             </td>
@@ -127,7 +137,9 @@ sign = MD5(appID + token + appKey)
                 用户验证token
             </td>
         </tr>
-		<tr>
+	<tr>
+	    <td rowspan="4">
+            </td>
             <td>
                sdkUserID
             </td>
@@ -138,7 +150,9 @@ sign = MD5(appID + token + appKey)
                 SDK用户userID
             </td>
         </tr>
-		<tr>
+	<tr>
+	    <td rowspan="4">
+            </td>
             <td>
                sdkUserName
             </td>
@@ -149,7 +163,9 @@ sign = MD5(appID + token + appKey)
                 SDK用户名
             </td>
         </tr>
-		<tr>
+	<tr>
+	    <td rowspan="4">
+            </td>
             <td>
                extension
             </td>
@@ -161,7 +177,7 @@ sign = MD5(appID + token + appKey)
             </td>
         </tr>
         <tr>
-            <td colspan="3">
+            <td colspan="4">
                验证不正确时，data没数据，只有errorCode
             </td>
         </tr>
