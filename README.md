@@ -62,13 +62,15 @@
             <td>sign</td>
             <td>String</td>
             <td>是</td>
-            <td>签名</td>
+            <td>签名（签名方式如下）</td>
         </tr>
     </tbody>
 </table>
 
 ####签名方式<br>
 sign = MD5(appID + token + appKey)
+
+
 
 ####返回值
 <table>
