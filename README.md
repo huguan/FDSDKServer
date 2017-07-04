@@ -135,7 +135,7 @@ sign = MD5(appID + token + appKey)
     </tbody>
 </table>
 ####返回值示例
-```
+'''
 //JSON:
 {    
     "errorCode": 0,
@@ -145,7 +145,7 @@ sign = MD5(appID + token + appKey)
         "account": "1"
     }
 }
-```
+'''
 <br><br>
 ##发货通知接口<br>
 ####接口地址
