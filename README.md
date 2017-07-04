@@ -107,24 +107,57 @@ sign = MD5(appID + token + appKey)
         </tr>
         <tr>
             <td>
-               id
+               userID
             </td>
             <td>
                 Stirng
             </td>
             <td>
-                用户id
+                用户userID
             </td>
         </tr>
         <tr>
             <td>
-               account
+               token
             </td>
             <td>
                 String
             </td>
             <td>
-                用户唯一id（即  account）
+                用户验证token
+            </td>
+        </tr>
+		<tr>
+            <td>
+               sdkUserID
+            </td>
+            <td>
+                String
+            </td>
+            <td>
+                SDK用户userID
+            </td>
+        </tr>
+		<tr>
+            <td>
+               sdkUserName
+            </td>
+            <td>
+                String
+            </td>
+            <td>
+                SDK用户名
+            </td>
+        </tr>
+		<tr>
+            <td>
+               extension
+            </td>
+            <td>
+                String
+            </td>
+            <td>
+               描述信息
             </td>
         </tr>
         <tr>
@@ -141,8 +174,11 @@ sign = MD5(appID + token + appKey)
     "errorCode": 0,
     "data":
     {
-        "id": "1"
-        "account": "1"
+        "userID": "3625533"
+        "token": "gvqPJpHOHGefBCgXQGmt5jm6MvZhca0jgIbwMgm_6_Wou8lZJhWJjNbhg9Vo2-xErSsaOqdgX8TokrrAFyHAgHlzUE-u_vZ4nAnc_rNpMzDE3NOVCPZeOxfRWR_Set0mmK8wsIYEq3CM_A3_YH0V5A0eH5GA4poKjSAZbLOloKo"，
+		"sdkUserID":"",
+		"sdkUserName":"",
+		"extension":""
     }
 }
 '''
