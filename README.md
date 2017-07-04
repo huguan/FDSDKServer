@@ -171,7 +171,7 @@ sign = MD5(appID + token + appKey)
             </td>
         </tr>
         <tr>
-            <td colspan="3">
+            <td colspan="4">
                验证不正确时，data没数据，只有errorCode
             </td>
         </tr>
