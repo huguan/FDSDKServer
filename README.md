@@ -12,7 +12,7 @@
 * 文档所有接口仅支持POST方式；返回信息全部为JSON结构。
 * 聚合sdk提供的是对各个渠道sdk接口的整合封装与转发，若有渠道方禁止接入第三方接口，CP方应详询渠道方及承担相应责任。
 
-##用户验证<br>
+##用户验证</br>
 ####接口地址
 <table>
     <thead>
@@ -28,7 +28,7 @@
         </tr>
     </tbody>
 </table>
-<br><br>
+</br></br>
 ####请求参数
 <table>
     <thead>
@@ -66,9 +66,9 @@
         </tr>
     </tbody>
 </table>
-####签名方式<br>
+####签名方式</br>
 sign = MD5(appID + token + appKey)
-<br><br>
+</br></br>
 ####返回值
 <table>
     <thead>
@@ -134,7 +134,7 @@ sign = MD5(appID + token + appKey)
         </tr>
     </tbody>
 </table>
-####返回值示例
+####返回值示例</br>
 '''
 //JSON:
 {    
@@ -146,8 +146,8 @@ sign = MD5(appID + token + appKey)
     }
 }
 '''
-<br><br>
-##发货通知接口<br>
+</br></br>
+##发货通知接口</br>
 ####接口地址
 <table>
     <thead>
@@ -163,7 +163,7 @@ sign = MD5(appID + token + appKey)
         </tr>
     </tbody>
 </table>
-<br><br>
+</br></br>
 ####请求参数
 <table>
     <thead>
@@ -249,19 +249,19 @@ sign = MD5(appID + token + appKey)
         </tr>
     </tbody>
 </table>
-####签名方式<br>
+####签名方式</br>
 MD5(productID + roleId + orderNum + endTime + appKey)
-<br><br>
+</br></br>
 ####返回值示例
-<br>
+</br>
 请求成功返回字符串: SUCCESS
-<br>
+</br>
 请求错误返回字符串: FAIL
-<br>
-<br><br>
-####说明<br>
+</br>
+</br></br>
+####说明</br>
 各个渠道对充值回调有不同的处理，只有CP返回SUCCESS时，渠道方才认为充值回调成功。若未收到CP的成功回复，渠道方可能会尝试继续发送回调请求，CP方要自行判断重复请求。
-<br><br>
+</br></br>
 ##附录
 <table>
     <thead>
@@ -329,7 +329,7 @@ MD5(productID + roleId + orderNum + endTime + appKey)
         </tr>
     </tbody>
 </table>
-<br><br>
+</br></br>
 许可证
 ==============
 HGSDK 使用 MIT 许可证，详情见 LICENSE 文件。
