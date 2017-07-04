@@ -178,20 +178,18 @@ sign = MD5(appID + token + appKey)
     </tbody>
 </table>
 ####返回值示例</br>
-'''
-//JSON:
-{    
-    "errorCode": 0,
-    "data":
-    {
-        "userID": "3625533"
-        "token": "gvqPJpHOHGefBCgXQGmt5jm6MvZhca0jgIbwMgm_6_Wou8lZJhWJjNbhg9Vo2-xErSsaOqdgX8TokrrAFyHAgHlzUE-u_vZ4nAnc_rNpMzDE3NOVCPZeOxfRWR_Set0mmK8wsIYEq3CM_A3_YH0V5A0eH5GA4poKjSAZbLOloKo"，
-		"sdkUserID":"",
-		"sdkUserName":"",
-		"extension":""
-    }
-}
-'''
+//JSON:</br>
+{    </br>
+    "errorCode": 0,</br>
+    "data":</br>
+    {</br>
+        "userID": "3625533"</br>
+        "token": "gvqPJpHOHGefBCgXQGmt5jm6MvZhca0jgIbwMgm_6_Wou8lZJhWJjNbhg9Vo2-xErSsaOqdgX8TokrrAFyHAgHlzUE-u_vZ4nAnc_rNpMzDE3NOVCPZeOxfRWR_Set0mmK8wsIYEq3CM_A3_YH0V5A0eH5GA4poKjSAZbLOloKo"，</br>
+		"sdkUserID":"",</br>
+		"sdkUserName":"",</br>
+		"extension":""</br>
+    }</br>
+}</br>
 </br></br>
 ##发货通知接口</br>
 ####接口地址
@@ -291,12 +289,12 @@ sign = MD5(appID + token + appKey)
             <td>sign</td>
             <td>String</td>
             <td>是</td>
-            <td>签名</td>
+            <td>签名(签名方式如下)</td>
         </tr>
     </tbody>
 </table>
 ####签名方式</br>
-MD5(productID + roleId + orderNum + endTime + appKey)
+sign = MD5(productID + roleId + orderNum + endTime + appKey)
 </br></br>
 ####返回值示例
 </br>
