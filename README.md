@@ -68,7 +68,7 @@
 </table>
 
 ####签名方式
-MD5(appID + token + appKey)
+sign = MD5(appID + token + appKey)
 
 
 ####返回值
