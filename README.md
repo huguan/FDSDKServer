@@ -112,7 +112,7 @@ sign = MD5(appID + token + appKey)
             </td>
         </tr>
         <tr>
-	    <td rowspan="4">
+	    <td>
             </td>
             <td>
                userID
@@ -125,7 +125,7 @@ sign = MD5(appID + token + appKey)
             </td>
         </tr>
         <tr>
-	    <td rowspan="4">
+	    <td>
             </td>
             <td>
                token
@@ -138,7 +138,7 @@ sign = MD5(appID + token + appKey)
             </td>
         </tr>
 	<tr>
-	    <td rowspan="4">
+	    <td>
             </td>
             <td>
                sdkUserID
@@ -151,7 +151,7 @@ sign = MD5(appID + token + appKey)
             </td>
         </tr>
 	<tr>
-	    <td rowspan="4">
+	    <td>
             </td>
             <td>
                sdkUserName
@@ -164,7 +164,7 @@ sign = MD5(appID + token + appKey)
             </td>
         </tr>
 	<tr>
-	    <td rowspan="4">
+	    <td>
             </td>
             <td>
                extension
@@ -177,7 +177,7 @@ sign = MD5(appID + token + appKey)
             </td>
         </tr>
         <tr>
-            <td colspan="4">
+            <td colspan="3">
                验证不正确时，data没数据，只有errorCode
             </td>
         </tr>
