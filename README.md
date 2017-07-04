@@ -262,7 +262,7 @@ MD5(productID + roleId + orderNum + endTime + appKey)
 请求错误返回字符串: FAIL
 <br>
 <br><br>
-####说明
+####说明<br>
 各个渠道对充值回调有不同的处理，只有CP返回SUCCESS时，渠道方才认为充值回调成功。若未收到CP的成功回复，渠道方可能会尝试继续发送回调请求，CP方要自行判断重复请求。
 <br><br>
 ##附录
