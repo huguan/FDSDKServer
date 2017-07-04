@@ -67,7 +67,7 @@
     </tbody>
 </table>
 
-####签名方式
+####签名方式<br>
 sign = MD5(appID + token + appKey)
 
 
