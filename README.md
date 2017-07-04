@@ -66,7 +66,6 @@
         </tr>
     </tbody>
 </table>
-<br><br>
 ####签名方式<br>
 sign = MD5(appID + token + appKey)
 <br><br>
@@ -135,7 +134,6 @@ sign = MD5(appID + token + appKey)
         </tr>
     </tbody>
 </table>
-<br><br>
 ####返回值示例
 ```
 //JSON:
@@ -251,7 +249,6 @@ sign = MD5(appID + token + appKey)
         </tr>
     </tbody>
 </table>
-<br><br>
 ####签名方式<br>
 MD5(productID + roleId + orderNum + endTime + appKey)
 <br><br>
