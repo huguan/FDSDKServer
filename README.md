@@ -70,7 +70,6 @@
 ####签名方式<br>
 sign = MD5(appID + token + appKey)
 
-
 ####返回值
 <table>
     <thead>
@@ -134,8 +133,6 @@ sign = MD5(appID + token + appKey)
                验证不正确时，data没数据，只有errorCode
             </td>
         </tr>
-        
-        
     </tbody>
 </table>
 
