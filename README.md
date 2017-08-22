@@ -301,7 +301,6 @@ sign = MD5(productID + roleId + orderNum + endTime + appKey)
 请求成功返回字符串: SUCCESS
 </br>
 请求错误返回字符串: FAIL
-</br>
 </br></br>
 ####说明</br>
 各个渠道对充值回调有不同的处理，只有CP返回SUCCESS时，渠道方才认为充值回调成功。若未收到CP的成功回复，渠道方可能会尝试继续发送回调请求，CP方要自行判断重复请求。
@@ -375,5 +374,5 @@ sign = MD5(productID + roleId + orderNum + endTime + appKey)
 </table>
 </br></br>
 许可证
-==============
+==============</br>
 HGSDK 使用 MIT 许可证，详情见 LICENSE 文件。
