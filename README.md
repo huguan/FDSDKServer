@@ -294,7 +294,15 @@ sign = MD5(appID + token + appKey)
     </tbody>
 </table>
 ####签名方式</br>
-sign = MD5(productID + roleId + orderNum + endTime + appKey)
+sign = MD5(productID=值roleId=值orderNum=值endTime=值appKey=值)
+</br></br>
+签名示例：</br>
+productID：9527</br>
+roleId:147</br>
+orderNum:201708221002293471043902939</br>
+endTime:2017-08-21 08:00:00</br>
+appkey:6c0350e2b9afc85aa800e982e3d92c8</br>
+sign=MD5(productID=9527roleId=147orderNum=201708221002293471043902939endTime=2017-08-21 08:00:00appkey=6c0350e2b9afc85aa800e982e3d92c8)</br>
 </br></br>
 ####返回值示例
 </br>
