@@ -99,7 +99,7 @@ sign = MD5(appID + token + appKey)
             <td>验证信息</td>
         </tr>
         <tr>
-            <td rowspan="4">
+            <td rowspan="3">
             </td>
             <td colspan="1">
                 参数名
@@ -113,61 +113,24 @@ sign = MD5(appID + token + appKey)
         </tr>
         <tr>
             <td>
-               userID
+               id
             </td>
             <td>
                 Stirng
             </td>
             <td>
-                用户userID
+                用户ID
             </td>
         </tr>
         <tr>
             <td>
-               token
+               account
             </td>
             <td>
                 String
             </td>
             <td>
-                用户验证token
-            </td>
-        </tr>
-	<tr>
-            <td>
-               sdkUserID
-            </td>
-            <td>
-                String
-            </td>
-            <td>
-                SDK用户userID
-            </td>
-        </tr>
-	<tr>
-	    <td>
-            </td>
-            <td>
-               sdkUserName
-            </td>
-            <td>
-                String
-            </td>
-            <td>
-                SDK用户名
-            </td>
-        </tr>
-	<tr>
-	    <td>
-            </td>
-            <td>
-               extension
-            </td>
-            <td>
-                String
-            </td>
-            <td>
-               描述信息
+                用户名
             </td>
         </tr>
         <tr>
@@ -183,11 +146,8 @@ sign = MD5(appID + token + appKey)
     "errorCode": 0,</br>
     "data":</br>
     {</br>
-        "userID": "3625533"</br>
-        "token": "gvqPJpHOHGefBCgXQGmt5jm6MvZhca0jgIbwMgm_6_Wou8lZJhWJjNbhg9Vo2-xErSsaOqdgX8TokrrAFyHAgHlzUE-u_vZ4nAnc_rNpMzDE3NOVCPZeOxfRWR_Set0mmK8wsIYEq3CM_A3_YH0V5A0eH5GA4poKjSAZbLOloKo"，</br>
-		"sdkUserID":"",</br>
-		"sdkUserName":"",</br>
-		"extension":""</br>
+        "id": "3625533"</br>
+        "account": "huguan_3001_1856313"，</br>
     }</br>
 }</br>
 </br></br>
